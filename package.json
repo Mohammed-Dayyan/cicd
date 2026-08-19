@@ -1,0 +1,27 @@
+{
+  "name": "api-aggregator",
+  "version": "1.0.0",
+  "description": "Small API aggregator for learning CI/CD",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.1",
+    "globals": "^17.11.0",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
